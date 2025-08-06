@@ -69,12 +69,7 @@ mbox.txt → Data Extraction → MongoDB → SQLite → Analysis & Insights
    pip install -r requirements.txt
    ```
 
-3. **Start MongoDB server:**
-   ```bash
-   mongod
-   ```
-
-4. **Run the Jupyter notebook:**
+3. **Run the Jupyter notebook:**
    ```bash
    jupyter notebook DE3.ipynb
    ```
@@ -218,5 +213,6 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 For questions or support, please open an issue in the repository.
 
 ---
+
 
 **Note**: This project demonstrates a complete data engineering pipeline from raw log files to actionable business insights, showcasing best practices in data processing, database design, and analytical querying. 
