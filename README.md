@@ -61,7 +61,7 @@ mbox.txt → Data Extraction → MongoDB → SQLite → Analysis & Insights
 
 1. **Clone the repository:**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/adityabalasubramaniam/GUVI_DE3_ELT_pipeline.git
    ```
 
 2. **Install required packages:**
@@ -139,11 +139,13 @@ The project includes 10 custom SQL queries providing insights into:
 
 ### Core Files
 - **DE3.ipynb**: Complete data pipeline with documentation
-- **mbox.txt**: Input dataset (email server logs)
+- **README.md**: Project documentation
+- **requirements.txt**: project dependencies to install to run the project file.
 
 ### Generated Files
 - **user_history.db**: SQLite database with processed data
-- **README.md**: Project documentation
+- **mbox.txt**: Input dataset (email server logs)
+
 
 ## Usage
 
@@ -216,3 +218,4 @@ For questions or support, please open an issue in the repository.
 
 
 **Note**: This project demonstrates a complete data engineering pipeline from raw log files to actionable business insights, showcasing best practices in data processing, database design, and analytical querying. 
+
