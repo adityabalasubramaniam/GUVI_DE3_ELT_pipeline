@@ -1,0 +1,6 @@
+pymongo==4.6.1
+pandas==2.1.4
+gdown==4.7.3
+jupyter==1.0.0
+notebook==7.0.6
+sqlite3 
